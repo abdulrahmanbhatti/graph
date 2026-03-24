@@ -357,7 +357,7 @@ st.markdown(
     color: white;
     margin-top: 4px;
 
-    background-color: #22C55E;   /* ✅ GREEN COLOR */
+    background-color: #3d4154;   /* ✅ GREEN COLOR */
 }
     html, body, [data-testid="stAppViewContainer"] {
         background: #F3F6FB;
