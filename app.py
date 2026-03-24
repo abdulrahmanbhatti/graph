@@ -347,6 +347,15 @@ def render_svg(country_name: str):
 st.markdown(
     """
     <style>
+#apply-btn button {background-color:#22C55E;}
+#solve-btn button {background-color:#3B82F6;}
+#reset-btn button {background-color:#EF4444;}
+</style>
+""", unsafe_allow_html=True)
+
+apply_btn = st.button("Apply Color", key="apply-btn", use_container_width=True)
+solve_btn = st.button("Solve Automatically", key="solve-btn", use_container_width=True)
+reset_btn = st.button("Reset", key="reset-btn", use_container_width=True)
     .stButton > button {
     width: 100%;
     min-height: 46px;
