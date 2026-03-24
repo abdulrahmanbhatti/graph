@@ -347,6 +347,18 @@ def render_svg(country_name: str):
 st.markdown(
     """
     <style>
+    .stButton > button {
+    width: 100%;
+    min-height: 46px;
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-top: 4px;
+
+    background-color: #22C55E;   /* ✅ GREEN COLOR */
+}
     html, body, [data-testid="stAppViewContainer"] {
         background: #F3F6FB;
     }
