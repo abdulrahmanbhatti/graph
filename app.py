@@ -356,8 +356,11 @@ st.markdown(
     font-weight: 700;
     color: white;
     margin-top: 4px;
-
+    
     background-color: #3d4154;   /* ✅ GREEN COLOR */
+}
+.stButton > button:active {
+    background-color: #3B82F6 !important;  /* click color */
 }
     html, body, [data-testid="stAppViewContainer"] {
         background: #F3F6FB;
