@@ -360,7 +360,7 @@ st.markdown(
     background-color: #3d4154;   /* ✅ GREEN COLOR */
 }
 .stButton > button:active {
-    background-color: #3B82F6 !important;  /* click color */
+    background-color:#0b228f !important;  /* click color */
 }
     html, body, [data-testid="stAppViewContainer"] {
         background: #F3F6FB;
